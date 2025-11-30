@@ -1,0 +1,13 @@
+[project]
+name = "branching-intro"
+version = "0.1.0"
+description = "One-pager website for Git beginners to understand branching strategy, including worktree and common strategies"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit>=1.51.0",
+    "streamlit-mermaid>=0.3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/foongsy/branching-intro"
